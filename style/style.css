@@ -1,0 +1,51 @@
+body{
+	background-image:url('images/back-ground.jpeg');
+}
+
+h1{
+	text-align: center;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 120px;
+}
+
+div{
+   padding: 30px; 
+   margin:5px; 
+   /* YOUR CODE HERE */
+}
+
+@media screen and (max-width: 600px){
+
+
+.grid-container{
+  display: inline-block;
+  max-width: 48%
+}
+.grid-item {
+
+  padding: 50px;
+  font-size: 15px;
+  text-align: center;
+}
+}
+
+
+@media screen and (min-width: 850px){
+
+
+.grid-container{
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.grid-item {
+
+  padding: 50px;
+  font-size: 15px;
+  text-align: center;
+}
+}
